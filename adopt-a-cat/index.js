@@ -7,7 +7,7 @@ require("./app/routes/cats_routes.js")(app)
 require("./app/routes/foods_for_cats_routes.js")(app)
 require("./app/routes/foods_routes.js")(app)
 
-app.get("/", (_, res) => {
+app.get("/api", (_, res) => {
 	res.send("Welcome to the Adopt a Cat app!")
 })
 
